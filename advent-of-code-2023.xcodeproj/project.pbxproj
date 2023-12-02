@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		6394FF502B1B840700867949 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6394FF4F2B1B840700867949 /* main.swift */; };
+		6394FF582B1B843C00867949 /* Day1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6394FF572B1B843C00867949 /* Day1.swift */; };
+		6394FF5A2B1B861600867949 /* DayOfCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6394FF592B1B861600867949 /* DayOfCode.swift */; };
+		6394FF5E2B1B9FB800867949 /* Day1InputSample1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6394FF5D2B1B9FB800867949 /* Day1InputSample1.swift */; };
+		6394FF602B1BA05300867949 /* DayOfCodeInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6394FF5F2B1BA05300867949 /* DayOfCodeInput.swift */; };
+		6394FF622B1BA0CC00867949 /* Day1Input.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6394FF612B1BA0CC00867949 /* Day1Input.swift */; };
+		6394FF642B1BB53100867949 /* Day1InputSample2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6394FF632B1BB53100867949 /* Day1InputSample2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +31,12 @@
 /* Begin PBXFileReference section */
 		6394FF4C2B1B840700867949 /* advent-of-code-2023 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "advent-of-code-2023"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6394FF4F2B1B840700867949 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		6394FF572B1B843C00867949 /* Day1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day1.swift; sourceTree = "<group>"; };
+		6394FF592B1B861600867949 /* DayOfCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayOfCode.swift; sourceTree = "<group>"; };
+		6394FF5D2B1B9FB800867949 /* Day1InputSample1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day1InputSample1.swift; sourceTree = "<group>"; };
+		6394FF5F2B1BA05300867949 /* DayOfCodeInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayOfCodeInput.swift; sourceTree = "<group>"; };
+		6394FF612B1BA0CC00867949 /* Day1Input.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day1Input.swift; sourceTree = "<group>"; };
+		6394FF632B1BB53100867949 /* Day1InputSample2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day1InputSample2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +69,23 @@
 		6394FF4E2B1B840700867949 /* advent-of-code-2023 */ = {
 			isa = PBXGroup;
 			children = (
+				6394FF562B1B842600867949 /* day-1 */,
 				6394FF4F2B1B840700867949 /* main.swift */,
+				6394FF592B1B861600867949 /* DayOfCode.swift */,
+				6394FF5F2B1BA05300867949 /* DayOfCodeInput.swift */,
 			);
 			path = "advent-of-code-2023";
+			sourceTree = "<group>";
+		};
+		6394FF562B1B842600867949 /* day-1 */ = {
+			isa = PBXGroup;
+			children = (
+				6394FF572B1B843C00867949 /* Day1.swift */,
+				6394FF5D2B1B9FB800867949 /* Day1InputSample1.swift */,
+				6394FF632B1BB53100867949 /* Day1InputSample2.swift */,
+				6394FF612B1BA0CC00867949 /* Day1Input.swift */,
+			);
+			path = "day-1";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +146,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6394FF602B1BA05300867949 /* DayOfCodeInput.swift in Sources */,
+				6394FF5A2B1B861600867949 /* DayOfCode.swift in Sources */,
+				6394FF5E2B1B9FB800867949 /* Day1InputSample1.swift in Sources */,
+				6394FF622B1BA0CC00867949 /* Day1Input.swift in Sources */,
+				6394FF642B1BB53100867949 /* Day1InputSample2.swift in Sources */,
+				6394FF582B1B843C00867949 /* Day1.swift in Sources */,
 				6394FF502B1B840700867949 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

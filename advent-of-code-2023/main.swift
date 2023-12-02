@@ -7,5 +7,22 @@
 
 import Foundation
 
-print("Hello, World!")
+var dayOfCode: DayOfCode
 
+print("Pick a day (1-25):");
+if let dayInput = readLine() {
+    switch dayInput {
+    case "1":
+        dayOfCode = Day1(input: Day1Input());
+    case "1s1":
+        dayOfCode = Day1(input: Day1InputSample1());
+    case "1s2":
+        dayOfCode = Day1(input: Day1InputSample2());
+        
+    default:
+        print("Day not completed!")
+        exit(-1)
+    }
+    
+    dayOfCode.run();
+}
