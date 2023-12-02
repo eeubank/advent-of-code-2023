@@ -37,6 +37,7 @@
 		6394FF5F2B1BA05300867949 /* DayOfCodeInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayOfCodeInput.swift; sourceTree = "<group>"; };
 		6394FF612B1BA0CC00867949 /* Day1Input.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day1Input.swift; sourceTree = "<group>"; };
 		6394FF632B1BB53100867949 /* Day1InputSample2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day1InputSample2.swift; sourceTree = "<group>"; };
+		6394FF652B1BBC6800867949 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +54,7 @@
 		6394FF432B1B840600867949 = {
 			isa = PBXGroup;
 			children = (
+				6394FF652B1BBC6800867949 /* README.md */,
 				6394FF4E2B1B840700867949 /* advent-of-code-2023 */,
 				6394FF4D2B1B840700867949 /* Products */,
 			);
