@@ -10,7 +10,7 @@ import Foundation
 struct Day1: DayOfCode {
     var input: DayOfCodeInput
     
-    func run() {
+    func run() throws {
         let rTwoDigits = /\w*?(\d|one|two|three|four|five|six|seven|eight|nine){1}[\w\d]*(\d|one|two|three|four|five|six|seven|eight|nine){1}/
         let rOneDigit = /\w*?(\d|one|two|three|four|five|six|seven|eight|nine){1}/
         

@@ -19,10 +19,15 @@ if let dayInput = readLine() {
     case "1s2":
         dayOfCode = Day1(input: Day1InputSample2());
         
+    case "2":
+        dayOfCode = Day2(input: Day2Input())
+    case "2s":
+        dayOfCode = Day2(input: Day2InputSample());
+        
     default:
         print("Day not completed!")
         exit(-1)
     }
     
-    dayOfCode.run();
+    try dayOfCode.run();
 }

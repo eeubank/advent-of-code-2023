@@ -10,5 +10,5 @@ import Foundation
 protocol DayOfCode {
     var input: DayOfCodeInput {get}
     
-    func run() -> Void
+    func run() throws -> Void
 }
