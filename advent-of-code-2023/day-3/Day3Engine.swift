@@ -12,32 +12,24 @@ struct Day3Engine {
     var symbolCoords: [Day3Coord: Character] = [:]
     
     init(input: DayOfCodeInput) {
-        var isParsingNum = false
-        var numRange: Range<Int>? = nil
-        var numY = 0
-        var numStr = ""
+        var numberParsingTracker: Day3NumberParsingTracker?
         
         for (y, line) in input.getDataArray().enumerated() {
             for (x, character) in line.enumerated() {
 
                 if character.isASCII && character.isNumber {
                     // found number, collect digits
-                    isParsingNum = true
-                    if (numRange == nil) {
-                        numRange = x..<(x+1)
-                    } else {
-                        numRange = numRange!.lowerBound..<(x+1)
+                    if numberParsingTracker == nil {
+                        numberParsingTracker = Day3NumberParsingTracker(x: x)
                     }
-                    numY = y
-                    numStr += String(character)
+                    numberParsingTracker?.extendRange(x: x)
+                    numberParsingTracker?.extendNumStr(character: character)
                     continue
-                } else if isParsingNum {
+                } else if let tracker = numberParsingTracker {
                     // found end of number, record it
-                    let partNumber = createPartNumber(numStr: numStr, numRange: numRange!, numY: numY)
+                    let partNumber = createPartNumber(numStr: tracker.numStr, numRange: tracker.range, numY: y)
                     recordPartNumber(partNumber: partNumber, partNumberMap: partNumbers)
-                    isParsingNum = false
-                    numRange = nil
-                    numStr = ""
+                    numberParsingTracker = nil
                 }
                 
                 if character != "." {
@@ -45,12 +37,13 @@ struct Day3Engine {
                     symbolCoords.updateValue(character, forKey: Day3Coord(x: x, y: y))
                 }
             }
-        }
-        
-        // Process number at EOF
-        if isParsingNum {
-            let partNumber = createPartNumber(numStr: numStr, numRange: numRange!, numY: numY)
-            recordPartNumber(partNumber: partNumber, partNumberMap: partNumbers)
+            
+            if let tracker = numberParsingTracker {
+                // Process number at EOL
+                let partNumber = createPartNumber(numStr: tracker.numStr, numRange: tracker.range, numY: y)
+                recordPartNumber(partNumber: partNumber, partNumberMap: partNumbers)
+                numberParsingTracker = nil
+            }
         }
     }
     
@@ -111,4 +104,22 @@ struct Day3PartNumber: Hashable {
 
 struct Day3Coord: Hashable {
     var x, y: Int
+}
+
+struct Day3NumberParsingTracker {
+    var range: Range<Int>
+    var numStr: String
+    
+    init (x: Int) {
+        self.range = x..<(x+1)
+        numStr = ""
+    }
+    
+    mutating func extendRange(x: Int) {
+        range = range.lowerBound..<(x+1)
+    }
+    
+    mutating func extendNumStr(character: Character) {
+        numStr += String(character)
+    }
 }
