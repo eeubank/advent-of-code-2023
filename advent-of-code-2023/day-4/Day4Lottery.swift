@@ -12,9 +12,8 @@ struct Day4Lottery {
     
     init(input: DayOfCodeInput) throws {
         for line in input.getDataArray() {
-            let raw = line.split(separator: ":")[1]
-                .split(separator: "|")
-            try self.tickets.append(Day4Ticket(winningNumbers: String(raw[0]), ticketNumbers: String(raw[1])))
+            let (winningNumbers, ticketNumbers) = getTicketNumbers(ticketStr: line)
+            try self.tickets.append(Day4Ticket(winningNumbers: winningNumbers, ticketNumbers: ticketNumbers))
         }
     }
     
@@ -30,6 +29,11 @@ struct Day4Lottery {
             ((i+1)..<(i+1 + ticketsWon)).forEach { tickets[$0].addCopies(amount: ticket.numCopies) }
         }
         return tickets.reduce(0, { acc, ticket in acc + ticket.numCopies })
+    }
+    
+    private func getTicketNumbers(ticketStr: String) -> (String, String) {
+        let result = ticketStr.components(separatedBy: [":", "|"])
+        return (result[1], result[2])
     }
 }
 
