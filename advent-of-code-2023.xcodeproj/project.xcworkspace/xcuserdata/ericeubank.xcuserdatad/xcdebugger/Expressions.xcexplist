@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "Day5Map.getMinSourceRangeValue():Day5Almanac.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "rangesSourceSort.first!.source.lowerBound">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Day5Map.getMapped(value:):Day5Almanac.swift">
+      </ContextState>
+      <ContextState
+         contextName = "Day5Map.build(from:):Day5Almanac.swift">
+      </ContextState>
+      <ContextState
+         contextName = "Day5Almanac.getLowestPlantingLocation():Day5Almanac.swift">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
