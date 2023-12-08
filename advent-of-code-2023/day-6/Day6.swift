@@ -11,11 +11,17 @@ struct Day6: DayOfCode {
     var input: DayOfCodeInput
     
     func run() throws {
+        let clock = ContinuousClock()
         let race = Day6Race(input: input)
-        let resultA = race.getMarginOfError()
-        let resultB = race.getMarginOfErrorKerned()
         
+        let resultA = race.getMarginOfError()
         print("Result A \(resultA)")
-        print("Result B \(resultB)")
+        
+        let elapsedTime = clock.measure {
+            let resultB = race.getMarginOfErrorKerned()
+            print("Result B \(resultB)")
+        }
+        
+        print("Time \(elapsedTime)")
     }
 }
