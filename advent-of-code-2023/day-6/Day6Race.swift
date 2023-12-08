@@ -39,6 +39,22 @@ struct Day6RaceRecord {
     var distance: Int
     
     func getCountOfWaysToBeat() -> Int {
-        return (1..<time).filter { ($0 * (time - $0) > distance) }.count
+        var lowerBound = 0
+        var upperBound = 0
+        
+        for i in 1..<time {
+            if i * (time - i) > distance {
+                lowerBound = i
+                break
+            }
+        }
+        for i in (1..<time).reversed() {
+            if i * (time - i) > distance {
+                upperBound = i
+                break
+            }
+        }
+        
+        return (lowerBound...upperBound).count
     }
 }
