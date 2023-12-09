@@ -14,3 +14,9 @@ extension Array {
         }
     }
 }
+
+extension Array<Int> {
+    func sum() -> Int {
+        return self.reduce(0, { acc, n in acc + n })
+    }
+}

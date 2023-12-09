@@ -46,6 +46,10 @@
 		63FC95D32B23816400A073DB /* Day8Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FC95D22B23816400A073DB /* Day8Map.swift */; };
 		63FC95D52B23818700A073DB /* Day8InputSampleB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FC95D42B23818700A073DB /* Day8InputSampleB.swift */; };
 		63FC95D72B240EBA00A073DB /* Day8InputSampleC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FC95D62B240EBA00A073DB /* Day8InputSampleC.swift */; };
+		63FC95DA2B24B95B00A073DB /* Day9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FC95D92B24B95B00A073DB /* Day9.swift */; };
+		63FC95DC2B24B96400A073DB /* Day9Input.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FC95DB2B24B96400A073DB /* Day9Input.swift */; };
+		63FC95DE2B24B97300A073DB /* Day9InputSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FC95DD2B24B97300A073DB /* Day9InputSample.swift */; };
+		63FC95E02B24B99D00A073DB /* Day9OASIS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FC95DF2B24B99D00A073DB /* Day9OASIS.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -102,6 +106,10 @@
 		63FC95D22B23816400A073DB /* Day8Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day8Map.swift; sourceTree = "<group>"; };
 		63FC95D42B23818700A073DB /* Day8InputSampleB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day8InputSampleB.swift; sourceTree = "<group>"; };
 		63FC95D62B240EBA00A073DB /* Day8InputSampleC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day8InputSampleC.swift; sourceTree = "<group>"; };
+		63FC95D92B24B95B00A073DB /* Day9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day9.swift; sourceTree = "<group>"; };
+		63FC95DB2B24B96400A073DB /* Day9Input.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day9Input.swift; sourceTree = "<group>"; };
+		63FC95DD2B24B97300A073DB /* Day9InputSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day9InputSample.swift; sourceTree = "<group>"; };
+		63FC95DF2B24B99D00A073DB /* Day9OASIS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day9OASIS.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +156,7 @@
 		6394FF4E2B1B840700867949 /* advent-of-code-2023 */ = {
 			isa = PBXGroup;
 			children = (
+				63FC95D82B24B95000A073DB /* day-9 */,
 				63FC95CB2B23813400A073DB /* day-8 */,
 				63FC95C22B22BAC900A073DB /* day-7 */,
 				63BFA8242B22A9700057CE10 /* day-6 */,
@@ -242,6 +251,17 @@
 			path = "day-8";
 			sourceTree = "<group>";
 		};
+		63FC95D82B24B95000A073DB /* day-9 */ = {
+			isa = PBXGroup;
+			children = (
+				63FC95D92B24B95B00A073DB /* Day9.swift */,
+				63FC95DB2B24B96400A073DB /* Day9Input.swift */,
+				63FC95DD2B24B97300A073DB /* Day9InputSample.swift */,
+				63FC95DF2B24B99D00A073DB /* Day9OASIS.swift */,
+			);
+			path = "day-9";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -309,6 +329,7 @@
 				632F61992B209E9E0040CD1D /* Day5Almanac.swift in Sources */,
 				6394FF832B1E88C500867949 /* Day4InputSample.swift in Sources */,
 				6394FF7B2B1CC68300867949 /* Day3Engine.swift in Sources */,
+				63FC95DE2B24B97300A073DB /* Day9InputSample.swift in Sources */,
 				63FC95C62B22BADD00A073DB /* Day7Input.swift in Sources */,
 				6394FF5A2B1B861600867949 /* DayOfCode.swift in Sources */,
 				6394FF702B1BED1900867949 /* Error.swift in Sources */,
@@ -316,6 +337,7 @@
 				6394FF6C2B1BE17000867949 /* Day2InputSample.swift in Sources */,
 				63FC95CF2B23814E00A073DB /* Day8Input.swift in Sources */,
 				6394FF802B1E88A300867949 /* Day4.swift in Sources */,
+				63FC95DC2B24B96400A073DB /* Day9Input.swift in Sources */,
 				6394FF722B1BFE6500867949 /* Day2Input.swift in Sources */,
 				6394FF772B1CC5DA00867949 /* Day3InputSample.swift in Sources */,
 				63BFA82A2B22A9A60057CE10 /* Day6Input.swift in Sources */,
@@ -328,6 +350,7 @@
 				632F61952B209E5B0040CD1D /* Day5Input.swift in Sources */,
 				6394FF642B1BB53100867949 /* Day1InputSample2.swift in Sources */,
 				63FC95C82B22BAE900A073DB /* Day7InputSample.swift in Sources */,
+				63FC95E02B24B99D00A073DB /* Day9OASIS.swift in Sources */,
 				6394FF6A2B1BE14C00867949 /* Day2.swift in Sources */,
 				63FC95D32B23816400A073DB /* Day8Map.swift in Sources */,
 				6394FF582B1B843C00867949 /* Day1.swift in Sources */,
@@ -336,6 +359,7 @@
 				63BFA8262B22A98B0057CE10 /* Day6.swift in Sources */,
 				63FC95CD2B23814300A073DB /* Day8.swift in Sources */,
 				6394FF752B1CC5C900867949 /* Day3.swift in Sources */,
+				63FC95DA2B24B95B00A073DB /* Day9.swift in Sources */,
 				6394FF502B1B840700867949 /* main.swift in Sources */,
 				63FC95CA2B22BAFE00A073DB /* Day7CamelCards.swift in Sources */,
 				63BFA8282B22A99D0057CE10 /* Day6Race.swift in Sources */,
