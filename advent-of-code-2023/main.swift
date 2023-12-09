@@ -49,6 +49,15 @@ if let dayInput = readLine() {
     case "7s":
         dayOfCode = Day7(input: Day7InputSample());
         
+    case "8":
+        dayOfCode = Day8(input: Day8Input())
+    case "8s1":
+        dayOfCode = Day8(input: Day8InputSampleA());
+    case "8s2":
+        dayOfCode = Day8(input: Day8InputSampleB());
+    case "8s3":
+        dayOfCode = Day8(input: Day8InputSampleC());
+        
     default:
         print("Day not completed!")
         exit(-1)
