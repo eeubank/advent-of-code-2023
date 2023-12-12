@@ -58,6 +58,10 @@
 		63FC95ED2B26BF3300A073DB /* Day10InputSampleC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FC95EC2B26BF3300A073DB /* Day10InputSampleC.swift */; };
 		63FC95EF2B26C22200A073DB /* Day10InputSampleD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FC95EE2B26C22200A073DB /* Day10InputSampleD.swift */; };
 		63FC95F12B26C23800A073DB /* Day10InputSampleE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FC95F02B26C23800A073DB /* Day10InputSampleE.swift */; };
+		63FC95F42B27F36D00A073DB /* Day11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FC95F32B27F36D00A073DB /* Day11.swift */; };
+		63FC95F62B27F37E00A073DB /* Day11Input.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FC95F52B27F37E00A073DB /* Day11Input.swift */; };
+		63FC95F82B27F38900A073DB /* Day11InputSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FC95F72B27F38900A073DB /* Day11InputSample.swift */; };
+		63FC95FA2B27F39700A073DB /* Day11Telescope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FC95F92B27F39700A073DB /* Day11Telescope.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -126,6 +130,10 @@
 		63FC95EC2B26BF3300A073DB /* Day10InputSampleC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day10InputSampleC.swift; sourceTree = "<group>"; };
 		63FC95EE2B26C22200A073DB /* Day10InputSampleD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day10InputSampleD.swift; sourceTree = "<group>"; };
 		63FC95F02B26C23800A073DB /* Day10InputSampleE.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day10InputSampleE.swift; sourceTree = "<group>"; };
+		63FC95F32B27F36D00A073DB /* Day11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day11.swift; sourceTree = "<group>"; };
+		63FC95F52B27F37E00A073DB /* Day11Input.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day11Input.swift; sourceTree = "<group>"; };
+		63FC95F72B27F38900A073DB /* Day11InputSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day11InputSample.swift; sourceTree = "<group>"; };
+		63FC95F92B27F39700A073DB /* Day11Telescope.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day11Telescope.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +180,7 @@
 		6394FF4E2B1B840700867949 /* advent-of-code-2023 */ = {
 			isa = PBXGroup;
 			children = (
+				63FC95F22B27F36500A073DB /* day-11 */,
 				63FC95E12B2609CB00A073DB /* day-10 */,
 				63FC95D82B24B95000A073DB /* day-9 */,
 				63FC95CB2B23813400A073DB /* day-8 */,
@@ -294,6 +303,17 @@
 			path = "day-10";
 			sourceTree = "<group>";
 		};
+		63FC95F22B27F36500A073DB /* day-11 */ = {
+			isa = PBXGroup;
+			children = (
+				63FC95F32B27F36D00A073DB /* Day11.swift */,
+				63FC95F52B27F37E00A073DB /* Day11Input.swift */,
+				63FC95F72B27F38900A073DB /* Day11InputSample.swift */,
+				63FC95F92B27F39700A073DB /* Day11Telescope.swift */,
+			);
+			path = "day-11";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -359,6 +379,7 @@
 				6394FF6E2B1BE20200867949 /* Day2Game.swift in Sources */,
 				63FC95D12B23815900A073DB /* Day8InputSampleA.swift in Sources */,
 				63FC95EB2B260A1000A073DB /* Day10Maze.swift in Sources */,
+				63FC95F82B27F38900A073DB /* Day11InputSample.swift in Sources */,
 				63BFA82C2B22A9B20057CE10 /* Day6InputSample.swift in Sources */,
 				632F61992B209E9E0040CD1D /* Day5Almanac.swift in Sources */,
 				6394FF832B1E88C500867949 /* Day4InputSample.swift in Sources */,
@@ -366,6 +387,7 @@
 				63FC95DE2B24B97300A073DB /* Day9InputSample.swift in Sources */,
 				63FC95C62B22BADD00A073DB /* Day7Input.swift in Sources */,
 				63FC95EF2B26C22200A073DB /* Day10InputSampleD.swift in Sources */,
+				63FC95F42B27F36D00A073DB /* Day11.swift in Sources */,
 				6394FF5A2B1B861600867949 /* DayOfCode.swift in Sources */,
 				63FC95F12B26C23800A073DB /* Day10InputSampleE.swift in Sources */,
 				6394FF702B1BED1900867949 /* Error.swift in Sources */,
@@ -387,6 +409,7 @@
 				632F61952B209E5B0040CD1D /* Day5Input.swift in Sources */,
 				6394FF642B1BB53100867949 /* Day1InputSample2.swift in Sources */,
 				63FC95E32B2609D900A073DB /* Day10.swift in Sources */,
+				63FC95FA2B27F39700A073DB /* Day11Telescope.swift in Sources */,
 				63FC95C82B22BAE900A073DB /* Day7InputSample.swift in Sources */,
 				63FC95E02B24B99D00A073DB /* Day9OASIS.swift in Sources */,
 				6394FF6A2B1BE14C00867949 /* Day2.swift in Sources */,
@@ -398,6 +421,7 @@
 				63FC95E92B260A0700A073DB /* Day10InputSampleB.swift in Sources */,
 				63FC95CD2B23814300A073DB /* Day8.swift in Sources */,
 				6394FF752B1CC5C900867949 /* Day3.swift in Sources */,
+				63FC95F62B27F37E00A073DB /* Day11Input.swift in Sources */,
 				63FC95DA2B24B95B00A073DB /* Day9.swift in Sources */,
 				6394FF502B1B840700867949 /* main.swift in Sources */,
 				63FC95CA2B22BAFE00A073DB /* Day7CamelCards.swift in Sources */,
