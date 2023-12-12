@@ -80,10 +80,10 @@ struct Day10Maze {
         let startJunction = junctions[startCoord!]!
         var directions: [Day10Direction] = []
         let candidates =  [
-            (Day10Coord(startCoord!.x, startCoord!.y - 1), Day10Direction.N),
-            (Day10Coord(startCoord!.x, startCoord!.y + 1), Day10Direction.S),
-            (Day10Coord(startCoord!.x - 1, startCoord!.y), Day10Direction.W),
-            (Day10Coord(startCoord!.x + 1, startCoord!.y), Day10Direction.E),
+            (startCoord!.adjacent(direction: .N), Day10Direction.N),
+            (startCoord!.adjacent(direction: .S), .S),
+            (startCoord!.adjacent(direction: .W), .W),
+            (startCoord!.adjacent(direction: .E), .E),
         ]
         for candidate in candidates {
             guard let candiateJunction = junctions[candidate.0] else {
