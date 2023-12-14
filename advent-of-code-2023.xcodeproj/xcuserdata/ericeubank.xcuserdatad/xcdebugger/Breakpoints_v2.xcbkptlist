@@ -100,5 +100,268 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8DB4EB82-7C1A-4005-AFCE-CF8191BDD972"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "advent-of-code-2023/day-12/Day12Springs.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "204"
+            endingLineNumber = "204"
+            landmarkName = "findFits(segmentLength:range:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8DB4EB82-7C1A-4005-AFCE-CF8191BDD972 - ae19be879abb6668"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "advent_of_code_2023.Day12RowOfSprings.findFits(segmentLength: Swift.Int, range: Swift.ClosedRange&lt;Swift.Int&gt;) throws -&gt; Swift.Array&lt;Swift.Int&gt;"
+                  moduleName = "advent-of-code-2023"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ericeubank/projects/advent-of-code-2023/advent-of-code-2023/day-12/Day12Springs.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "178"
+                  endingLineNumber = "178"
+                  offsetFromSymbolStart = "2292">
+               </Location>
+               <Location
+                  uuid = "8DB4EB82-7C1A-4005-AFCE-CF8191BDD972 - ae19be879abb6668"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "advent_of_code_2023.Day12RowOfSprings.findFits(segmentLength: Swift.Int, range: Swift.ClosedRange&lt;Swift.Int&gt;) throws -&gt; Swift.Array&lt;Swift.Int&gt;"
+                  moduleName = "advent-of-code-2023"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ericeubank/projects/advent-of-code-2023/advent-of-code-2023/day-12/Day12Springs.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "178"
+                  endingLineNumber = "178"
+                  offsetFromSymbolStart = "2152">
+               </Location>
+               <Location
+                  uuid = "8DB4EB82-7C1A-4005-AFCE-CF8191BDD972 - ae19be879abb664b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "advent_of_code_2023.Day12RowOfSprings.findFits(segmentLength: Swift.Int, range: Swift.ClosedRange&lt;Swift.Int&gt;) throws -&gt; Swift.Array&lt;Swift.Int&gt;"
+                  moduleName = "advent-of-code-2023"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ericeubank/projects/advent-of-code-2023/advent-of-code-2023/day-12/Day12Springs.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "179"
+                  endingLineNumber = "179"
+                  offsetFromSymbolStart = "2152">
+               </Location>
+               <Location
+                  uuid = "8DB4EB82-7C1A-4005-AFCE-CF8191BDD972 - ae19be879abb66f4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "advent_of_code_2023.Day12RowOfSprings.findFits(segmentLength: Swift.Int, range: Swift.ClosedRange&lt;Swift.Int&gt;) throws -&gt; Swift.Array&lt;Swift.Int&gt;"
+                  moduleName = "advent-of-code-2023"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ericeubank/projects/advent-of-code-2023/advent-of-code-2023/day-12/Day12Springs.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "182"
+                  endingLineNumber = "182"
+                  offsetFromSymbolStart = "2120">
+               </Location>
+               <Location
+                  uuid = "8DB4EB82-7C1A-4005-AFCE-CF8191BDD972 - ae19be879abb6691"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "advent_of_code_2023.Day12RowOfSprings.findFits(segmentLength: Swift.Int, range: Swift.ClosedRange&lt;Swift.Int&gt;) throws -&gt; Swift.Array&lt;Swift.Int&gt;"
+                  moduleName = "advent-of-code-2023"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ericeubank/projects/advent-of-code-2023/advent-of-code-2023/day-12/Day12Springs.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "185"
+                  endingLineNumber = "185"
+                  offsetFromSymbolStart = "2200">
+               </Location>
+               <Location
+                  uuid = "8DB4EB82-7C1A-4005-AFCE-CF8191BDD972 - ae19be879abb6691"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "advent_of_code_2023.Day12RowOfSprings.findFits(segmentLength: Swift.Int, range: Swift.ClosedRange&lt;Swift.Int&gt;) throws -&gt; Swift.Array&lt;Swift.Int&gt;"
+                  moduleName = "advent-of-code-2023"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ericeubank/projects/advent-of-code-2023/advent-of-code-2023/day-12/Day12Springs.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "185"
+                  endingLineNumber = "185"
+                  offsetFromSymbolStart = "2088">
+               </Location>
+               <Location
+                  uuid = "8DB4EB82-7C1A-4005-AFCE-CF8191BDD972 - ae19be879abb6753"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "advent_of_code_2023.Day12RowOfSprings.findFits(segmentLength: Swift.Int, range: Swift.ClosedRange&lt;Swift.Int&gt;) throws -&gt; Swift.Array&lt;Swift.Int&gt;"
+                  moduleName = "advent-of-code-2023"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ericeubank/projects/advent-of-code-2023/advent-of-code-2023/day-12/Day12Springs.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "187"
+                  endingLineNumber = "187"
+                  offsetFromSymbolStart = "2088">
+               </Location>
+               <Location
+                  uuid = "8DB4EB82-7C1A-4005-AFCE-CF8191BDD972 - ae19be879abb67fc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "advent_of_code_2023.Day12RowOfSprings.findFits(segmentLength: Swift.Int, range: Swift.ClosedRange&lt;Swift.Int&gt;) throws -&gt; Swift.Array&lt;Swift.Int&gt;"
+                  moduleName = "advent-of-code-2023"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ericeubank/projects/advent-of-code-2023/advent-of-code-2023/day-12/Day12Springs.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "190"
+                  endingLineNumber = "190"
+                  offsetFromSymbolStart = "2088">
+               </Location>
+               <Location
+                  uuid = "8DB4EB82-7C1A-4005-AFCE-CF8191BDD972 - ae19be879abb6523"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "advent_of_code_2023.Day12RowOfSprings.findFits(segmentLength: Swift.Int, range: Swift.ClosedRange&lt;Swift.Int&gt;) throws -&gt; Swift.Array&lt;Swift.Int&gt;"
+                  moduleName = "advent-of-code-2023"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ericeubank/projects/advent-of-code-2023/advent-of-code-2023/day-12/Day12Springs.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "203"
+                  endingLineNumber = "203"
+                  offsetFromSymbolStart = "2088">
+               </Location>
+               <Location
+                  uuid = "8DB4EB82-7C1A-4005-AFCE-CF8191BDD972 - ae19be879abb6502"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "advent_of_code_2023.Day12RowOfSprings.findFits(segmentLength: Swift.Int, range: Swift.ClosedRange&lt;Swift.Int&gt;) throws -&gt; Swift.Array&lt;Swift.Int&gt;"
+                  moduleName = "advent-of-code-2023"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ericeubank/projects/advent-of-code-2023/advent-of-code-2023/day-12/Day12Springs.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "204"
+                  endingLineNumber = "204"
+                  offsetFromSymbolStart = "2088">
+               </Location>
+               <Location
+                  uuid = "8DB4EB82-7C1A-4005-AFCE-CF8191BDD972 - ae19be879abb65ed"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "advent_of_code_2023.Day12RowOfSprings.findFits(segmentLength: Swift.Int, range: Swift.ClosedRange&lt;Swift.Int&gt;) throws -&gt; Swift.Array&lt;Swift.Int&gt;"
+                  moduleName = "advent-of-code-2023"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ericeubank/projects/advent-of-code-2023/advent-of-code-2023/day-12/Day12Springs.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "205"
+                  endingLineNumber = "205"
+                  offsetFromSymbolStart = "2088">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D5E72A73-42AE-4244-8525-86EBABEC8248"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "advent-of-code-2023/day-12/Day12Springs.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "181"
+            endingLineNumber = "181"
+            landmarkName = "findFits(segmentLength:range:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "24F3088F-C5F1-4718-B3FC-A2569E5C1B73"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "advent-of-code-2023/day-12/Day12Springs.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "119"
+            endingLineNumber = "119"
+            landmarkName = "getAllValidArrangements()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C3D9B22A-7A34-497F-8287-767909D7B6ED"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "advent-of-code-2023/day-12/Day12Springs.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "136"
+            endingLineNumber = "136"
+            landmarkName = "getAllValidArrangements()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C3D9B22A-7A34-497F-8287-767909D7B6ED - 136e25edc8838a77"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "advent_of_code_2023.Day12RowOfSprings.getAllValidArrangements() throws -&gt; Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "advent-of-code-2023"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ericeubank/projects/advent-of-code-2023/advent-of-code-2023/day-12/Day12Springs.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "135"
+                  endingLineNumber = "135"
+                  offsetFromSymbolStart = "8260">
+               </Location>
+               <Location
+                  uuid = "C3D9B22A-7A34-497F-8287-767909D7B6ED - 136e25edc8838a77"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "advent_of_code_2023.Day12RowOfSprings.getAllValidArrangements() throws -&gt; Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "advent-of-code-2023"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ericeubank/projects/advent-of-code-2023/advent-of-code-2023/day-12/Day12Springs.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "135"
+                  endingLineNumber = "135"
+                  offsetFromSymbolStart = "8284">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
